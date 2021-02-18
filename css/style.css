@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;}
+.header{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+
+@media (min-width: 992px){
+    .container{
+        margin: 5px;
+        display: flex;
+    }
+    .p1{
+        background-color: #fd2e6c;
+        width: 90px;
+        padding: 5px;
+        float: right;
+        text-align: center;
+        border-bottom:solid 2px black ;
+        border-left:solid 2px black;
+    }
+    .p2{
+        clear: right;
+        padding: 10px;
+    }
+    #first{
+        background-color: #72efdd;
+        border: solid 2px black;
+        margin: 5px;
+        width: 33.333%;
+    }
+    #second{
+        background-color: #56cfe1;
+        border: solid 2px black;
+        margin: 5px;
+        width: 33.333%;
+    }
+    #third{
+        background-color: #64dfdf;
+        border: solid 2px black;
+        margin: 5px;
+        width: 33.333%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .container{
+        display: flex;
+        margin: 5px;
+        padding: 5px;
+        flex-wrap: wrap;
+    }
+    .container div{
+        flex-grow: 1;
+    }
+    .p1{
+        background-color: #ff0a54;
+        width: 90px;
+        padding: 5px;
+        float: right;
+        text-align: center;
+        border-bottom:solid 2px black ;
+        border-left:solid 2px black;
+    }
+    .p2{
+        clear: right;
+        padding: 10px;
+    }
+    .container #first{
+        background-color: #72efdd;
+        border: solid 2px black;
+        margin: 5px;
+        width: 40%;
+    }
+    .container #second{
+        background-color: #56cfe1;
+        border: solid 2px black;
+        margin: 5px;
+        width: 40%;
+    }
+    .container #third{
+        background-color: #64dfdf;
+        border: solid 2px black;
+        margin: 5px;
+        width: 100%;
+    }
+}
+@media (max-width: 767px){
+    .container{
+        display: flex;
+        margin: 5px;
+        padding: 5px;
+        flex-wrap: wrap;
+    }
+    .p1{
+        background-color: #ff477e;
+        width: 90px;
+        padding: 5px;
+        float: right;
+        text-align: center;
+        border-bottom:solid 2px black ;
+        border-left:solid 2px black;
+    }
+    .p2{
+        clear: right;
+        padding: 10px;
+    }
+    .container #first{
+        background-color: #72efdd;
+        border: solid 2px black;
+        margin: 5px;
+        width: 100%;
+    }
+    .container #second{
+        background-color: #56cfe1;
+        border: solid 2px black;
+        margin: 5px;
+        width: 100%;
+    }
+    .container #third{
+        background-color: #64dfdf;
+        border: solid 2px black;
+        margin: 5px;
+        width: 100%;
+    }
+}
